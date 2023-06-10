@@ -17,5 +17,22 @@ I use the online platform for this project named Remix IDE.
 
    Create a folder in the IDE with whatever name you like. Mine by, **my_contracts**<br/>
    ➡️🖱️ Folder and add file named ***Smart_contract1.sol*** <br/><br/>
-  <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p2.PNG"> 
+  <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p2.PNG"> <br/>
+  
+ - Furthermore, we need smart contracts with vulnerabilities and risk. <br/>
+    There are many resources where you get it or make your own one. But for this project, i take from the resources like:<br/>
+    - Openzeppelin.com <a> https://docs.openzeppelin.com/contracts/4.x/ </a>
+    - ConsenSys <a> https://github.com/ConsenSys/smart-contract-best-practices </a>
+    - Chatgpt 
+   
+           Note: We are implementing only few smart contracts like 
+   
+ -  Write them in the files you made under <my_contracts> folders.<br/><br/>
+    <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p3.PNG" height="500px"> <br/>
+ -  Open File Explorer in Remix IDE, Check for these security analysis tools: <br/>
+     - Solidity Static Analysis
+     - MythX
+     <br/>Activate both of them.
+ 
+ 
 
