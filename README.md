@@ -27,14 +27,25 @@ I use the online platform for this project named Remix IDE.
    
            Note: We are implementing only few smart contracts like 
    
- -  Write them in the files you made under <my_contracts> folders.<br/><br/>
+ - Write them in the files you made under <my_contracts> folders.<br/><br/>
     <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p3.PNG" height="500px"> <br/>
- -  Open File Explorer in Remix IDE , Check for these security analysis tools in ***Plugin Manager***: <br/>
+    
+ - ***First Manually analyze the smart contract and find out the vulnerability that will be detected, then Automate.***
+ 
+ - Open File Explorer in Remix IDE , Check for these security analysis tools in ***Plugin Manager***: <br/>
      - Solidity Static Analysis
      - MythX
      <br/>Activate both of them.<br/><br/>
-     <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p4.PNG" height="400px">
+     <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p4.PNG" height="400px"> <br/>
+     - We are only analyzing the Security Section,
+     <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p5.PNG" height="400px"> 
      
+ - Compile the code with Ctrl+S or ▶️
+ 
+ ### UseCase One of Smart Contract : Reentrancy Attack
+ - After compling it, it does give error which seems like this, <br/> 
+   <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p6.PNG" height="400px">
+   
  
  
 
