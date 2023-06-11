@@ -26,9 +26,6 @@ I use the online platform for this project named Remix IDE.
     - Chatgpt 
    
            Note: We are implementing only few smart contracts like 
-   
- - Write them in the files you made under <my_contracts> folders.<br/><br/>
-    <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p3.PNG" height="500px"> <br/>
     
  - ***First Manually analyze the smart contract and find out the vulnerability that will be detected, then Automate.***
  
@@ -43,8 +40,26 @@ I use the online platform for this project named Remix IDE.
  - Compile the code with Ctrl+S or ▶️
  
  ### UseCase One of Smart Contract : Reentrancy Attack
+  - Write them in the files you made under <my_contracts> folders.<br/><br/>
+    <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p3.PNG" height="500px"> <br/>
+    
  - After compling it, it does give error which seems like this, <br/> <br/>
    <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p6.PNG" height="400px">
+   
+ - Countermeasures,
+    - Lock variable
+    - Checks-Effects-Interactions pattern
+
+ ### UseCase One of Smart Contract : tx.origin
+  - Write them in the files you made under <my_contracts> folders.<br/><br/>
+    <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p7.PNG" height="500px"> <br/>
+    
+ - After compling it, it does give error which seems like this, <br/> <br/>
+   <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p8.PNG" height="400px">
+   
+ - Countermeasures,
+    - Use msg.sender to find immediate address of who calling the function
+
    
  
  
