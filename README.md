@@ -37,13 +37,13 @@ I use the online platform for this project named Remix IDE.
      - MythX
      <br/>Activate both of them.<br/><br/>
      <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p4.PNG" height="400px"> <br/>
-     - We are only analyzing the Security Section,
+     - We are only analyzing the Security Section, <br/> <br/>
      <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p5.PNG" height="400px"> 
      
  - Compile the code with Ctrl+S or ▶️
  
  ### UseCase One of Smart Contract : Reentrancy Attack
- - After compling it, it does give error which seems like this, <br/> 
+ - After compling it, it does give error which seems like this, <br/> <br/>
    <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p6.PNG" height="400px">
    
  
