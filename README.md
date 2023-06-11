@@ -50,7 +50,7 @@ I use the online platform for this project named Remix IDE.
     - Lock variable
     - Checks-Effects-Interactions pattern
 
- ### UseCase One of Smart Contract : tx.origin
+ ### UseCase Two of Smart Contract : tx.origin
   - Write them in the files you made under <my_contracts> folders.<br/><br/>
     <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p7.PNG" height="500px"> <br/>
     
@@ -59,6 +59,17 @@ I use the online platform for this project named Remix IDE.
    
  - Countermeasures,
     - Use msg.sender to find immediate address of who calling the function
+
+ ### UseCase Three of Smart Contract : Self Destruct
+  - Write them in the files you made under <my_contracts> folders.<br/><br/>
+    <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p9.PNG" height="500px"> <br/>
+    
+ - After compling it, it does give error which seems like this, <br/> <br/>
+   <img src="https://github.com/uzair-khn/Blockchain_Security_Analysis/blob/main/imgs/p10.PNG" height="400px">
+   
+ - Countermeasures,
+    - Additional checks to ensure that only the owner
+
 
    
  
